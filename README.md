@@ -1,17 +1,24 @@
-"A real-time Virtual Paint application built with Python and OpenCV. By tracking a specific color (Blue) through a webcam, users can draw on their screen in mid-air and clear the canvas with a single keystroke."
+Virtual Paint (OpenCV Project)
 
-2. Key Features
-Real-time Tracking: Uses HSV color filtering and Contours for low-latency tracking.
+A real-time Virtual Paint application built using Python and OpenCV.
+This project allows users to draw in the air using a colored object (Blue) detected through a webcam.
 
-Persistent Canvas: Uses a separate NumPy array to store drawings so they don't disappear.
+By tracking the colored object in real-time, the application converts its movement into digital strokes on the screen, creating an interactive drawing experience.
 
-Full-Screen Mode: Immersive drawing experience.
+🚀 Features
+🎯 Real-Time Color Tracking
 
-Controls: Press 'c' to clear the canvas and 'q' to quit.
+Uses HSV color filtering and contour detection to track a specific color with low latency, enabling smooth drawing.
 
-3. Technologies Used
-Python 3.x
+🖌 Persistent Canvas
 
-OpenCV: For image processing and webcam handling.
+A separate NumPy canvas array is used to store drawings so that strokes remain visible even when the tracked object moves away.
 
-NumPy: For canvas creation and mathematical operations.
+🖥 Full-Screen Drawing Mode
+
+Provides an immersive full-screen drawing experience for better usability.
+
+⌨ Simple Controls
+Key	Action
+C	Clear the canvas
+Q	Quit the application
